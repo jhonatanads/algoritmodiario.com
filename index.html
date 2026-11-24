@@ -1,0 +1,316 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Veja exemplos de preços de ferramentas de inteligência artificial no Brasil e consulte o índice atualizado do Algoritmo Diário.">
+  <title>Preços de ferramentas de IA no Brasil | Guia rápido</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      color-scheme: light;
+      --ink: #0f172a;
+      --muted: #475569;
+      --accent: #1d4ed8;
+      --accent-hover: #1e40af;
+      --accent-soft: #eff6ff;
+      --accent-border: #bfdbfe;
+      --line: #e2e8f0;
+      --surface: #f1f5f9;
+      --white: #ffffff;
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      background: radial-gradient(circle at top, #e2e8f0 0%, var(--surface) 45%);
+      color: var(--ink);
+      font: 16px/1.65 "Inter", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    main {
+      width: min(780px, calc(100% - 32px));
+      margin: 48px auto;
+      padding: clamp(28px, 5vw, 52px);
+      background: var(--white);
+      border: 1px solid rgba(226, 232, 240, 0.9);
+      border-radius: 20px;
+      box-shadow: 0 20px 40px -15px rgba(15, 23, 42, 0.08), 0 0 1px 1px rgba(15, 23, 42, 0.03);
+    }
+
+    .eyebrow {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      padding: 6px 12px;
+      border-radius: 999px;
+      background: var(--accent-soft);
+      border: 1px solid var(--accent-border);
+      color: var(--accent);
+      font-size: 0.78rem;
+      font-weight: 700;
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
+      margin: 0 0 16px;
+    }
+
+    h1 {
+      margin: 0 0 16px;
+      font-size: clamp(1.9rem, 4.5vw, 2.65rem);
+      font-weight: 800;
+      line-height: 1.15;
+      letter-spacing: -0.025em;
+      color: var(--ink);
+    }
+
+    h2 {
+      margin: 36px 0 12px;
+      font-size: 1.35rem;
+      font-weight: 700;
+      letter-spacing: -0.015em;
+      color: var(--ink);
+    }
+
+    p {
+      margin: 0 0 16px;
+      color: var(--muted);
+    }
+
+    .updated {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      font-size: 0.88rem;
+      color: var(--muted);
+      background: #f8fafc;
+      padding: 8px 14px;
+      border-radius: 8px;
+      border: 1px solid var(--line);
+      margin-top: 4px;
+    }
+
+    .updated strong {
+      color: var(--ink);
+      font-weight: 600;
+    }
+
+    .table-wrap {
+      overflow-x: auto;
+      margin: 20px 0 24px;
+      border: 1px solid var(--line);
+      border-radius: 12px;
+      box-shadow: 0 2px 6px rgba(15, 23, 42, 0.02);
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      text-align: left;
+    }
+
+    th, td {
+      padding: 14px 18px;
+      border-bottom: 1px solid var(--line);
+      vertical-align: middle;
+    }
+
+    th {
+      color: var(--muted);
+      background: #f8fafc;
+      font-size: 0.82rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.04em;
+    }
+
+    th:last-child, td:last-child {
+      text-align: right;
+    }
+
+    tbody tr:last-child td {
+      border-bottom: none;
+    }
+
+    tbody tr {
+      transition: background-color 0.15s ease;
+    }
+
+    tbody tr:hover {
+      background-color: #f8fafc;
+    }
+
+    td:first-child {
+      font-weight: 600;
+      color: var(--ink);
+    }
+
+    .price-tag {
+      display: inline-block;
+      font-weight: 700;
+      color: var(--ink);
+      font-variant-numeric: tabular-nums;
+    }
+
+    .iof-badge {
+      display: inline-block;
+      margin-left: 6px;
+      padding: 2px 7px;
+      font-size: 0.72rem;
+      font-weight: 600;
+      color: #0369a1;
+      background: #e0f2fe;
+      border-radius: 6px;
+      vertical-align: middle;
+    }
+
+    .notice {
+      display: flex;
+      gap: 12px;
+      padding: 16px 18px;
+      border-left: 4px solid var(--accent);
+      background: var(--accent-soft);
+      border-radius: 0 10px 10px 0;
+      font-size: 0.92rem;
+      color: #1e3a8a;
+      margin-bottom: 32px;
+    }
+
+    .cta-box {
+      padding: 24px 28px;
+      background: linear-gradient(135deg, #f8fafc 0%, #eff6ff 100%);
+      border: 1px solid var(--accent-border);
+      border-radius: 14px;
+      margin: 28px 0;
+    }
+
+    .cta-box h2 {
+      margin-top: 0;
+    }
+
+    .button {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      margin-top: 6px;
+      padding: 13px 22px;
+      border-radius: 10px;
+      background: var(--accent);
+      color: #ffffff;
+      font-weight: 600;
+      font-size: 0.95rem;
+      text-decoration: none;
+      box-shadow: 0 4px 12px rgba(29, 78, 216, 0.25);
+      transition: transform 0.15s ease, background-color 0.15s ease, box-shadow 0.15s ease;
+    }
+
+    .button:hover, .button:focus {
+      background: var(--accent-hover);
+      transform: translateY(-1px);
+      box-shadow: 0 6px 16px rgba(29, 78, 216, 0.32);
+    }
+
+    .embed-container {
+      margin: 28px 0;
+    }
+
+    a {
+      color: var(--accent);
+      text-decoration: none;
+      font-weight: 500;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    footer {
+      margin-top: 36px;
+      padding-top: 20px;
+      border-top: 1px solid var(--line);
+      color: var(--muted);
+      font-size: 0.88rem;
+    }
+
+    footer p {
+      margin: 0;
+    }
+
+    @media (max-width: 560px) {
+      main { margin: 16px auto; padding: 22px 18px; border-radius: 16px; }
+      th, td { padding: 12px 12px; font-size: 0.92rem; }
+      .cta-box { padding: 20px; }
+      .iof-badge { display: block; margin: 4px 0 0 auto; width: fit-content; }
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <p class="eyebrow">Guia de custos de inteligência artificial</p>
+    <h1>Quanto custam ferramentas de IA no Brasil?</h1>
+    <p>O preço de uma ferramenta de inteligência artificial pode variar conforme o plano, a moeda de cobrança e os impostos. Para ajudar na comparação, reunimos abaixo alguns exemplos de assinaturas e serviços populares.</p>
+    <p class="updated"><strong>Referência de preços:</strong> valores exibidos no índice do Algoritmo Diário, conferidos em 18/11/2026.</p>
+
+    <h2>Exemplos de preços mensais</h2>
+    <div class="table-wrap">
+      <table>
+        <thead>
+          <tr>
+            <th scope="col">Ferramenta e plano</th>
+            <th scope="col">Preço indicado</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>ChatGPT Go</td>
+            <td><span class="price-tag">R$ 39,99</span></td>
+          </tr>
+          <tr>
+            <td>ChatGPT Plus</td>
+            <td><span class="price-tag">R$ 99,90</span></td>
+          </tr>
+          <tr>
+            <td>Claude Pro</td>
+            <td><span class="price-tag">R$ 120,27</span> <span class="iof-badge">com IOF</span></td>
+          </tr>
+          <tr>
+            <td>Google AI Plus</td>
+            <td><span class="price-tag">R$ 24,99</span></td>
+          </tr>
+          <tr>
+            <td>Google AI Pro</td>
+            <td><span class="price-tag">R$ 96,99</span></td>
+          </tr>
+          <tr>
+            <td>Make Core</td>
+            <td><span class="price-tag">R$ 63,68</span> <span class="iof-badge">com IOF</span></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="notice">
+      <span>Os valores podem mudar. Planos cobrados em moeda estrangeira são convertidos para reais e podem incluir IOF; a cotação do banco e os impostos cobrados no checkout também podem alterar o total.</span>
+    </div>
+
+    <div class="cta-box">
+      <h2>Consulte o índice completo</h2>
+      <p>Para ver mais planos, comparar categorias como assistentes de IA, automação e APIs de WhatsApp, conferir a metodologia e consultar a data de cada preço, acesse o índice atualizado do Algoritmo Diário.</p>
+      <a class="button" href="https://algoritmodiario.com/indice-precos-ia">Ver o Índice de Preços de IA no Brasil &rarr;</a>
+    </div>
+
+    <div class="embed-container">
+      <div class="ad-precos-ia" data-layout="horizontal"></div>
+      <script src="https://algoritmodiario.com/embed/precos-ia.js" async></script>
+      <noscript><a href="https://algoritmodiario.com/indice-precos-ia">Índice de Preços de IA no Brasil – Algoritmo Diário</a></noscript>
+    </div>
+
+    <footer>
+      <p>Resumo complementar com base no <a href="https://algoritmodiario.com/indice-precos-ia">Índice de Preços de IA do Algoritmo Diário</a>. Consulte a página de origem para os valores mais recentes e detalhes de cada plano.</p>
+    </footer>
+  </main>
+</body>
+</html>
